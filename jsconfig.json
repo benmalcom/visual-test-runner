@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "styles/*": ["styles/*"],
+      "components/*": ["components/*"],
+      "services/*": ["services/*"],
+      "utils/*": ["utils/*"],
+      "pages/*": ["pages/*"],
+      "test-utils": ["./test-utils"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+
+  "exclude": ["node_modules"]
+}
